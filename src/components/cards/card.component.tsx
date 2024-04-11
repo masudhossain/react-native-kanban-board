@@ -90,7 +90,7 @@ class Card extends Component<Props> {
             <React.Fragment>
               <View style={styles.cardHeaderContainer}>
                 <View style={styles.cardTitleContainer}>
-                  <Text style={[cardTitleTextStyle, styles.cardTitleText]}>{model.title}</Text>
+                  <Text style={[cardTitleTextStyle, styles.cardTitleText]}>{model.title} Hello world</Text>
                 </View>
                 <Text style={[cardSubtitleTextStyle, styles.cardSubtitleText]}>{model.subtitle}</Text>
               </View>
